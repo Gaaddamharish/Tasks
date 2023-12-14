@@ -1,0 +1,32 @@
+table,tr
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 150px;
+    width: 150px;
+    margin-left: 400px;
+
+}
+td {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    
+}
+/* p{
+    padding: 10px;
+} */
+.bg{
+    background-color: black;
+
+}
+.bg1{
+    background-color: green;
+}
+.bg2{
+    background-color: blue;
+}
+img{ 
+     height: 156px;
+    width: 171px
+}

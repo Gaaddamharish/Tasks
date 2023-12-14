@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,body{
+            margin: 0px;
+            padding: 0px;
+        }
+        body
+        {
+           background-image:url(./bg1.png);
+        }
+        .centre
+        {
+            text-align: center;
+            background-color:rgb(250, 236, 156);
+            border: 1px solid black;
+            border-radius: 10px;
+            margin: 300px;
+            margin-top: 100px;
+        }
+        #pagecolor
+        {
+            background-color:blanchedalmond;
+        }
+        .header
+        {
+            background-color: rgb(185, 185, 253);
+            border:5px solid rgb(25, 31, 24) ;
+            
+            
+            
+        }
+        ul li a{
+            text-decoration: none;
+
+            
+        }
+        li{
+            display: inline;
+            padding: 100px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            
+        }
+        .button
+        {
+            background-color: white;
+            padding: 5px 15px 5px 15
+            px;
+            border: 1px solid lightblue;
+            border-radius: 10px;
+        }
+        .button:hover{
+            background-color: rgb(26, 189, 26);
+            }
+    </style>
+</head>
+<div class="header">
+    <ul>
+        <li> <a href="navbartask7.html"> Home </a> </li>
+       <li><a href="navbarregistration.html">Registration</a></li>
+      <li> <a href="navbarlogin.html"> Login</a></li>
+       <li><a href="navbarcontact.html"> Contact </a></li>
+</ul>
+</div>
+<body  id="pagecolor">
+    <form action="" class="centre">
+    <h1 ><u>Login</u></h1><br>
+    <label for="gmail">gmail* :</label>
+    <input type="email" placeholder="Enter a gmail" required ><br><br>
+    <label for="password">password* :</label>
+    <input type="password" minlength="10" maxlength="10" placeholder="Enter password" required><br><br>
+    <label for="forget password"><a href="">forget password</a></label><br><br>
+    <input type="radio" required>
+    <label for="text">Agree</label><br><br>
+    
+
+    <button class="button">Login</button>
+    <button  class="button"><a href="navbarregistration.html" >signup</a></button>
+</form>
+</body>
+</html>

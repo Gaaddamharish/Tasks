@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-image: url(./bg1.png);
+      }
+      .centre {
+        background-color: lightgreen;
+        text-align: center;
+        border: 5px solid black;
+        border-radius: 20px;
+        width: 400px;
+        margin: 400px;
+        margin-top: 100px;
+      }
+
+      .header {
+        background-color: rgb(185, 185, 253);
+        border: 5px solid black;
+      }
+      ul li a {
+        text-decoration: none;
+      }
+      li {
+        display: inline;
+        padding: 100px;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 20px;
+      }
+      .button {
+        background-color: lightseagreen;
+        padding: 5px 15px 5px 15px;
+        border: 1px solid lightblue;
+        border-radius: 10px;
+      }
+      .button:hover {
+        background-color: rgb(26, 189, 26);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <ul>
+        <li><a href="navbartask7.html"> Home </a></li>
+        <li><a href="navbarregistration.html">Registration</a></li>
+        <li><a href="navbarlogin.html"> Login</a></li>
+        <li><a href="navbarcontact.html"> Contact </a></li>
+      </ul>
+    </div>
+
+    <form action="" class="centre">
+      <h1><u>Registration Form</u></h1>
+      <br />
+      <label for="name "> Name* : </label>
+      <input type="text" placeholder="Enter a Name" required /> <br /><br />
+      <label for="Number">phone Number :</label>
+      <input type="tel " minlength="10" maxlength="10" /><br /><br />
+      <label for="gmail"> gmail* : </label>
+      <input type="email" placeholder="Enter email" /><br /><br />
+      <label for="password"> password* :</label>
+      <input type="password" placeholder="ENter password" required />
+      <br /><br />
+      <label for="Gender">Gender* : </label>
+      <input type="radio" name="Gender" />
+      <label for="male">male</label>
+      <input type="radio" name="Gender" />
+      <label for="female"> female</label><br /><br />
+
+      <button type="submit" class="button">signup</button>
+      <button type="reset" class="button">reset</button>
+    </form>
+  </body>
+</html>
